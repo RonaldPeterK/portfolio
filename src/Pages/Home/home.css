@@ -1,0 +1,16 @@
+.big-text .text1,
+.text2 {
+    font-weight: 900;
+}
+
+.big-text .text2 {
+    color: white;
+    font-weight: 900;
+    -webkit-text-stroke: 2px black;
+}
+
+.big-text .text3 {
+    font-size: 20px !important;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+}

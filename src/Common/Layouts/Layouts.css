@@ -1,0 +1,14 @@
+.main-frame {
+    display: flex;
+    overflow-x: auto;
+    height: 100vh;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.scroll-section {
+    flex: none;
+    width: 100vw;
+    height: 98vh;
+    scroll-snap-align: start;
+}
