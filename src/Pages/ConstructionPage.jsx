@@ -4,6 +4,7 @@ import animationData from '../Assets/constructionAni.json';
 import { Button, Layout, Typography, Row, Col } from 'antd';
 const { Content } = Layout;
 const { Title, Text } = Typography;
+import myresume from '../Assets/my-resume.pdf'
 
 const ConstructionPage = () => {
   const defaultOptions = {
@@ -66,7 +67,7 @@ const ConstructionPage = () => {
             <Button
               type="primary"
               size="large"
-              href=""
+              href={myresume}
               style={{
                 maxWidth:'12rem',
                 padding: '10px 40px',
