@@ -1,5 +1,6 @@
 
-import Layouts from "./Common/Layouts/Layouts";
+// import Layouts from "./Common/Layouts/Layouts";
+import ConstructionPage from "./Pages/ConstructionPage";
 // import AppRoutes from "./routes";
 // import { BrowserRouter as Router } from "react-router-dom";
 
@@ -9,7 +10,8 @@ function App() {
       {/* <Router>
         <AppRoutes />
       </Router> */}
-      <Layouts />
+      {/* <Layouts /> */}
+      <ConstructionPage/>
     </>
   );
 }
