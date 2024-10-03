@@ -2,9 +2,11 @@ import React from 'react';
 import Lottie from 'react-lottie';
 import animationData from '../Assets/constructionAni.json';
 import { Button, Layout, Typography, Row, Col } from 'antd';
+import myresume from '../Assets/my-resume.pdf';
+
 const { Content } = Layout;
 const { Title, Text } = Typography;
-import myresume from '../Assets/my-resume.pdf'
+
 
 const ConstructionPage = () => {
   const defaultOptions = {
